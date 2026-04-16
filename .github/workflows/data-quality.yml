@@ -1,0 +1,20 @@
+name: SQL & Data Quality Check
+
+on: [push, pull_request]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Verify SQL files
+      run: |
+        echo "SQL files present:"
+        find . -name "*.sql" -type f | head -10
+        ls -lh *.sql 2>/dev/null || echo "No SQL files found"
+    
+    - name: Verify data files
+      run: |
+        echo "Data files present:"
+        find . -name "*.csv" -type f | head -10

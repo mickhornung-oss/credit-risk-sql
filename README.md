@@ -11,7 +11,7 @@ Den bereitgestellten Kreditrisiko-Datensatz für SQL-Analysen aufbereiten und ze
 - `credit_risk_dataset_sql_ready_v2.csv` – aufbereitete Version für SQL
 - `Abschlussprojekt Modul Datenbank und SQL.docx` – Projektdokumentation
 - `ProjektA_Handout_Styled.pdf` – Handout
-- `Abschluss 2.pptx` – Präsentation
+- `Abschluss 1.pptx` – Präsentation
 
 ## Nutzung
 1. CSV-Datei in dein SQL-System importieren
